@@ -14,10 +14,12 @@ int main(int argc, char*argv[])
         for(int j=1 ;j<=(wiersz-i)+15 ;j++)
         {
 
-           cout<<"*";
+           cout<<" ";
         }
         for(int d=1 ;d<=(2*i)-1 ;d++)
-
+        { 
+            cout<<"*";
+        }
 
     cout<<" "<<endl;
     }
